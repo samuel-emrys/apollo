@@ -6,7 +6,7 @@
 
 QT       += core gui
 
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets printsupport
 
 TARGET = apollo
 TEMPLATE = app
@@ -16,6 +16,7 @@ TEMPLATE = app
 # depend on your compiler). Please consult the documentation of the
 # deprecated API in order to know how to port your code away from it.
 DEFINES += QT_DEPRECATED_WARNINGS
+QMAKE_CXXFLAGS += -v
 
 # You can also make your code fail to compile if you use deprecated APIs.
 # In order to do so, uncomment the following line.
@@ -24,37 +25,39 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
-        main.cpp \
-        mainwindow.cpp \
-    subscriber.cpp \
-    publisher.cpp \
-    ticker.cpp \
+    main.cpp \
     dataseries.cpp \
-    repository.cpp \
-    interactivechart.cpp \
-    plotlist.cpp \
-    listitem.cpp \
-    searchbox.cpp \
     indicatorcombobox.cpp \
+    interactivechart.cpp \
+    listitem.cpp \
+    mainwindow.cpp \
     pfdecompositioncheckbox.cpp \
+    plotlist.cpp \
     portfoliocombobox.cpp \
-    timeframecombobox.cpp
+    publisher.cpp \
+    repository.cpp \
+    searchbox.cpp \
+    subscriber.cpp \
+    ticker.cpp \
+    timeframecombobox.cpp \
+    lib/qcustomplot.cpp
 
 HEADERS += \
-        mainwindow.h \
-    subscriber.h \
-    publisher.h \
-    ticker.h \
     dataseries.h \
-    repository.h \
-    interactivechart.h \
-    plotlist.h \
-    listitem.h \
-    searchbox.h \
     indicatorcombobox.h \
+    interactivechart.h \
+    listitem.h \
+    mainwindow.h \
     pfdecompositioncheckbox.h \
+    plotlist.h \
     portfoliocombobox.h \
-    timeframecombobox.h
+    publisher.h \
+    repository.h \
+    searchbox.h \
+    subscriber.h \
+    ticker.h \
+    timeframecombobox.h \
+    lib/qcustomplot.h
 
 FORMS += \
         mainwindow.ui
