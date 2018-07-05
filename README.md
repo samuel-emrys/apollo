@@ -3,7 +3,7 @@ In my exploration of the finance world and taming of my own personal finances, I
 
 Below is a preliminary feature list, which will be revised as I find information that may be helpful in forming my own opinions. My plan is to develop this incrementally, getting basic charting functionality working first and refining from there. Feedback and suggestions are welcome.
 
-apollo is being developed in Qt 5.10
+apollo is being developed in Qt 5.11.1
 
 ## v1.0 Features
 - Chart and compare historical data of selected stocks
