@@ -1,8 +1,8 @@
 #ifndef INDICATORCOMBOBOX_H
 #define INDICATORCOMBOBOX_H
+#include <QComboBox>
 
-
-class IndicatorComboBox
+class IndicatorComboBox : public QComboBox
 {
 public:
     IndicatorComboBox();

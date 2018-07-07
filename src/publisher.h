@@ -2,10 +2,10 @@
 #define PUBLISHER_H
 
 
-class publisher
+class Publisher
 {
 public:
-    publisher();
+    Publisher();
 };
 
 #endif // PUBLISHER_H

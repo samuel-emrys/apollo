@@ -1,6 +1,6 @@
 #include "publisher.h"
 
-publisher::publisher()
+Publisher::Publisher()
 {
 
 }

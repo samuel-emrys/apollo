@@ -1,8 +1,8 @@
 #ifndef PLOTLIST_H
 #define PLOTLIST_H
+#include <QListWidget>
 
-
-class PlotList
+class PlotList : public QListWidget
 {
 public:
     PlotList();

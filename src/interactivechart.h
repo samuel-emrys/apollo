@@ -1,8 +1,8 @@
 #ifndef INTERACTIVECHART_H
 #define INTERACTIVECHART_H
+#include "lib/qcustomplot.h"
 
-
-class InteractiveChart
+class InteractiveChart : public QCustomPlot
 {
 public:
     InteractiveChart();

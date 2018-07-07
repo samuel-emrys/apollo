@@ -1,8 +1,8 @@
 #ifndef PORTFOLIOCOMBOBOX_H
 #define PORTFOLIOCOMBOBOX_H
+#include <QComboBox>
 
-
-class PortfolioComboBox
+class PortfolioComboBox : public QComboBox
 {
 public:
     PortfolioComboBox();

@@ -1,8 +1,8 @@
 #ifndef PFDECOMPOSITIONCHECKBOX_H
 #define PFDECOMPOSITIONCHECKBOX_H
+#include <QCheckBox>
 
-
-class PFDecompositionCheckBox
+class PFDecompositionCheckBox : public QCheckBox
 {
 public:
     PFDecompositionCheckBox();
