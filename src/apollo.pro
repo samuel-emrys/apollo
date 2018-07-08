@@ -6,7 +6,7 @@
 
 QT       += core gui
 
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets printsupport
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets printsupport sql
 
 TARGET = apollo
 TEMPLATE = app
@@ -40,7 +40,9 @@ SOURCES += \
     subscriber.cpp \
     ticker.cpp \
     timeframecombobox.cpp \
-    lib/qcustomplot.cpp
+    lib/qcustomplot.cpp \
+    factory.cpp \
+    gateway.cpp
 
 HEADERS += \
     dataseries.h \
@@ -57,7 +59,9 @@ HEADERS += \
     subscriber.h \
     ticker.h \
     timeframecombobox.h \
-    lib/qcustomplot.h
+    lib/qcustomplot.h \
+    factory.h \
+    gateway.h
 
 FORMS += \
         mainwindow.ui
