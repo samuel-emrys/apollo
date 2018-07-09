@@ -41,8 +41,9 @@ SOURCES += \
     ticker.cpp \
     timeframecombobox.cpp \
     lib/qcustomplot.cpp \
-    factory.cpp \
-    gateway.cpp
+    gateway.cpp \
+    datafactory.cpp \
+    imodeldata.cpp
 
 HEADERS += \
     dataseries.h \
@@ -60,8 +61,9 @@ HEADERS += \
     ticker.h \
     timeframecombobox.h \
     lib/qcustomplot.h \
-    factory.h \
-    gateway.h
+    gateway.h \
+    datafactory.h \
+    imodeldata.h
 
 FORMS += \
         mainwindow.ui

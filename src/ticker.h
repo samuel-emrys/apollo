@@ -2,8 +2,9 @@
 #define TICKER_H
 #include <QString>
 #include "dataseries.h"
+#include "imodeldata.h"
 
-class Ticker
+class Ticker : public IModelData
 {
 private:
     QString m_symbol;
@@ -22,7 +23,7 @@ public:
     QString getDescription() { return this->m_description; }
     QString getExchange() { return this->m_exchange; }
     QString getSector() { return this->m_sector; }
-    QString getCurrency() { return this->m_data; }
+    QString getCurrency() { return this->m_currency; }
     DataSeries getData() { return this->m_data; }
 
     //Setters
