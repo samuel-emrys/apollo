@@ -4,6 +4,7 @@
 
 class Repository
 {
+private:
 public:
     Repository();
 };

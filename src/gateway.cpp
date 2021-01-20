@@ -73,11 +73,11 @@ QVector<Ticker> Gateway::getTickers()
 
     while (query.next())
     {
-        QString symbol = query->value(0).toString();
-        QString desc = query->value(1).toString();
-        QString exchange = query->value(2).toString();
-        QString sector = query->value(3).toString();
-        QString currency = query->value(4).toString();
+        QString symbol = query.value(0).toString();
+        QString desc = query.value(1).toString();
+        QString exchange = query.value(2).toString();
+        QString sector = query.value(3).toString();
+        QString currency = query.value(4).toString();
 
         Ticker t(symbol, desc, exchange, sector, currency);
         data.push_back(t);

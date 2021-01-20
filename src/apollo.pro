@@ -26,6 +26,7 @@ QMAKE_CXXFLAGS += -v
 
 SOURCES += \
     main.cpp \
+    datafactory.cpp \
     dataseries.cpp \
     indicatorcombobox.cpp \
     interactivechart.cpp \
@@ -42,10 +43,10 @@ SOURCES += \
     timeframecombobox.cpp \
     lib/qcustomplot.cpp \
     gateway.cpp \
-    datafactory.cpp \
     imodeldata.cpp
 
 HEADERS += \
+    datafactory.h \
     dataseries.h \
     indicatorcombobox.h \
     interactivechart.h \
@@ -62,7 +63,6 @@ HEADERS += \
     timeframecombobox.h \
     lib/qcustomplot.h \
     gateway.h \
-    datafactory.h \
     imodeldata.h
 
 FORMS += \

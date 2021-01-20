@@ -2,6 +2,8 @@
 #define GATEWAY_H
 #include <QMessageBox>
 #include <QtSql>
+#include "dataseries.h"
+#include "ticker.h"
 
 class Gateway
 {
@@ -14,8 +16,8 @@ public:
     void Initialize();
 
     //Getters
-    QSqlRecord getTickerData(QString& _ticker);
-    QSqlRecord getTickers();
+    DataSeries getTickerData(QString& _ticker);
+    QVector<Ticker> getTickers();
 };
 
 #endif // GATEWAY_H

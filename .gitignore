@@ -41,4 +41,8 @@ database/*
 ehthumbs.db
 Thumbs.db
 
+# Third party libraries
+lib/
 
+# Autosave files
+*.autosave
